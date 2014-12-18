@@ -15,8 +15,12 @@ snd-soc-ak4641-objs := ak4641.o
 snd-soc-ak4642-objs := ak4642.o
 snd-soc-ak4671-objs := ak4671.o
 snd-soc-ak5386-objs := ak5386.o
+<<<<<<< HEAD
 snd-soc-arizona-objs := arizona.o
 snd-soc-cod3022-objs := cod3022x.o
+=======
+snd-soc-arizona-objs := arizona.o arizona-control.o
+>>>>>>> 2bf4512... sound: SoC: WolfsonMicro WM5110 sound control [AndreiLux]
 snd-soc-cq93vc-objs := cq93vc.o
 snd-soc-cs42l51-objs := cs42l51.o
 snd-soc-cs42l52-objs := cs42l52.o
